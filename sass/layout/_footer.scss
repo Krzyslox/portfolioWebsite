@@ -1,0 +1,25 @@
+//Footer
+footer {
+    background-color: #413e3e;
+    color: #d5d5d5;
+    padding-top: 2rem;
+
+    & a {
+      color: #d5d5d5;
+    }
+  }
+  hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  .b-logo {
+    margin-top: 8px;
+  }

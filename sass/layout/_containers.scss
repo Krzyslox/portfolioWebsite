@@ -1,0 +1,135 @@
+// Navigation
+
+.navbar {
+    padding: .8rem;
+  }
+
+  .navbar-nav li {
+    padding-right: 20px;
+  }
+
+  .nav-linkk {
+    font-size: 1.1em !important;
+  }
+
+// Image Slider
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    & h1 {
+      font-size: 500%;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 10px $black;
+    }
+
+    & h3 {
+      font-size: 200%;
+      font-weight: 500;
+      text-shadow: 1px 1px 10px $black;
+      padding-bottom: 1rem;
+    }
+  }
+
+  .btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+
+    &:hover {
+      background-color: darken(#6648b1, 12);
+      border: 1px solid darken(#6648b1, 12);
+    }
+  }
+
+  // Jumbotron
+  .jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+  }
+
+  //Welcome Section
+  .padding {
+    padding-bottom: 2rem;
+  }
+  .welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+
+    & hr {
+      border-top: 2px solid #b4b4b4;
+      width: 95%;
+      margin-top: .3rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  // Three column section
+  .fa-code {
+    color: #e54d26;
+  }
+  .fa-bold {
+    color: #563d7c;
+  }
+  .fa-css3 {
+    color: #2163af;
+  }
+
+  .fa-bold,
+  .fa-code,
+  .fa-css3 {
+    margin: 1rem;
+  }
+
+// Connect
+.social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+  .fa-facebook {
+    color: $facebook-color;
+    transition: 0.3s color ease-in-out;
+
+    &:hover {
+      color: darken($facebook-color, 15);
+    }
+  }
+  .fa-twitter {
+    color: $twitter-color;
+    transition: 0.3s color ease-in-out;
+
+    &:hover {
+      color: darken($twitter-color, 15);
+    }
+  }
+  .fa-google-plus-g {
+    color: $google-color;
+    transition: 0.3s color ease-in-out;
+
+    &:hover {
+      color: darken($google-color, 15);
+    }
+  }
+  .fa-instagram {
+    color: $instagram-color;
+    transition: 0.3s color ease-in-out;
+
+    &:hover {
+      color: darken($instagram-color, 15);
+    }
+  }
+  .fa-youtube {
+    color: $youtube-color;
+    transition: 0.3s color ease-in-out;
+
+    &:hover {
+      color: darken($youtube-color, 15);
+    }
+  }
