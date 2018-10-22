@@ -143,6 +143,11 @@ body {
   color: #6f0000;
 }
 
+.t-container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 footer {
   background-color: #413e3e;
   color: #d5d5d5;
@@ -171,7 +176,19 @@ hr.light-100 {
   margin-top: 8px;
 }
 
+.t-container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 /*---Media Queries --*/
+@media (max-width: 992px) {
+  .t-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 @media (max-width: 768px) {
   .carousel-caption {
     top: 35%;
